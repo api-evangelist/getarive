@@ -1,7 +1,25 @@
 aid: getarive
-name: getarive
-description: getarive is a company surfaced as a portfolio company of balderton-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/getarive.png
+name: ARIVE
+description: ARIVE (getarive.com) was an urban quick-commerce platform founded in Paris during
+  the COVID-19 pandemic that delivered fashion, beauty, and lifestyle products to customers within
+  hours. Operating across Berlin, Munich, Hamburg, Düsseldorf, Frankfurt, and Paris, it connected
+  more than 500 brands and 200 local stores directly to young, convenience-focused urban shoppers.
+  Backed by Balderton Capital, LaFamiglia, and Triple Point Capital with roughly €31.7M raised, the
+  company ceased operations in mid-2023 following a sale of the business. No public API, developer
+  portal, SDK, or other technical surface was ever published; this profile is retained for network
+  and portfolio-graph completeness.
 url: https://raw.githubusercontent.com/api-evangelist/getarive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,19 @@ x-backed-by:
 - balderton-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Quick Commerce
+- Retail
+- E-commerce
+- Delivery
+- Fashion
+- Beauty
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.getarive.com/
+- type: PrivacyPolicy
+  url: https://www.getarive.com/privacy
+- type: TermsOfService
+  url: https://www.getarive.com/terms-and-conditions
+- type: Legal
+  url: https://www.getarive.com/imprint
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
